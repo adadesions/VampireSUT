@@ -1,0 +1,22 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Health : MonoBehaviour
+{
+	[SerializeField] int m_maxHealth = 100;
+
+	// Current Health
+	private int m_curHealth = 100;
+
+	void Awake()
+	{
+		m_curHealth = m_maxHealth;
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+
+	}
+}
